@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Beatriz exer Bootstrap</title>
+    <!-- Bootstrap atraves de link <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">-->
+    <!--bootstrap utilizando por download da pasta na mesmo ficheiro do trabalho-->
+    <link href="css/bootstrap.css" rel="stylesheet" >
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <style>
+   /* solução para o conteiner que fica colado a navbar, outra opção é por uma class mt-3 no main e tem o mesmo efeito .navbar{
+      margin-bottom: 10px;
+    }*/
+  </style>
+  <body>
+    <header class="p-3">
+    <div class="conteiner text-center">
+        <img src="iefp.jpg" alt="logo do IEFP" title="logo IEFP">
+    </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--expand-lg determina o tamanho que a navbar se torna mobile. light: cor da fonte; gb-light muda o cor do fundo-->
+      <a class="navbar-brand" href="#">Beatriz Fonseca</a> <!--navbar-brand identificação do site-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <main class="mt-5">
+      <!--primeira parte do main-->
+        <div class="container-fluid mb-5">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="jumbotron h-100 mb-0">
+                <h1>Olá!!!!</h1>
+                <p class="lead"> Informações informações informações</p>
+                <hr class="my-4">
+                <p>Informações informações informações</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Clique :)</a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="jumbotron h-100 mb-0">
+                <h1 class="display-4">Olá!!</h1>
+                <p class="lead"> Informações informações informações</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--segunda parte do main-->
+        <div class="conteiner mb-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card mb-3">
+                      <img src="casa.jpg" alt="logo" title="logo" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Informações informações informações</p>
+                        <a href="#" class="btn btn-primary">Clique :)</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card mb-3">
+                    <img src="casa.jpg" atl="logo" title="logo" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Card Title</h5>
+                      <p class="card-text">Informações informações informações</p>
+                      <a href="#" class="btn btn-primary">Clique :)</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card mb-3">
+                    <img src="casa.jpg" atl="logo" title="logo" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Card Title</h5>
+                      <p class="card-text">Informações informações informações</p>
+                      <a href="#" class="btn btn-primary">Clique :)</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card mb-3">
+                    <img src="casa.jpg" atl="logo" title="logo" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Card Title</h5>
+                      <p class="card-text">Informações informações informações</p>
+                      <a href="#" class="btn btn-primary">Clique :)</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="py-5 text-muted bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <p>Todos os direitos reservados</p>
+              <p>Desenvolvido por Beatriz Fonseca</p>
+              <p>Formação IEFP/2025</p>
+            </div>
+            <div class="col-md-3">
+              <img src="iefp.jpg" alt="logo do IEFP" title="logO IEFP" >
+            </div>
+          </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) ideal ficar na parte inferior para não interferir no carregameto da página -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script> -->
+  </body>
+</html>
